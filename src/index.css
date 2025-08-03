@@ -1,0 +1,51 @@
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind base;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind components;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  @apply outline-2 outline-offset-2;
+}
+
+/* Selection styles */
+::selection {
+  @apply bg-blue-200;
+}
+
+/* Theme-specific styles */
+.theme-1 {
+  @apply bg-theme1-background text-theme1-text;
+}
+
+.theme-2 {
+  @apply bg-theme2-background text-theme2-text;
+}
+
+.theme-3 {
+  @apply bg-theme3-background text-theme3-text;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-all duration-300 ease-in-out;
+} 
