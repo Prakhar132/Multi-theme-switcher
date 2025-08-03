@@ -25,6 +25,10 @@ A modern React TypeScript application featuring a dynamic theme switcher with th
 - **About**: Feature overview and theme descriptions
 - **Contact**: Contact form with validation
 
+## 🚀 Live Demo
+
+🌍 [https://multi-theme-switcher-weld.vercel.app/](https://multi-theme-switcher-weld.vercel.app/)
+
 ## 🚀 Installation
 
 1. **Clone the repository**
@@ -142,7 +146,6 @@ Edit the theme objects in `src/themes/themes.ts` to customize:
 - Spacing
 - Layout properties
 
-## 🐛 Troubleshooting
 
 ### Common Issues
 
@@ -163,10 +166,6 @@ npm run build
 npm run eject
 ```
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -174,11 +173,5 @@ This project is open source and available under the [MIT License](LICENSE).
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📞 Support
-
-For questions or support, please open an issue on GitHub.
-
+   
 ---
-
-**Built with ❤️ using React, TypeScript, and Styled-components** 
